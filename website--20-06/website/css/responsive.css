@@ -1,0 +1,334 @@
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1600px;
+  }
+}
+@media (max-width: 1279px) {
+  .container {
+    max-width: 95%;
+  }
+}
+@media (max-width: 1199px) {
+  .menu-list {
+    width: 88%;
+  }
+  .top_header:before {
+    left: -280px;
+  }
+  h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .our-partner {
+    margin-top: 0px;
+  }
+  .experience-info p {
+    font-size: 35px;
+  }
+  .partner {
+    z-index: 1;
+  }
+  .partner-details {
+    padding: 40px 20px 40px;
+    position: relative;
+    z-index: 0;
+  }
+  .counts-box h3 {
+    font-size: 43px;
+    line-height: 42px;
+  }
+  .counts-box p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .counts-box {
+    min-height: 170px;
+  }
+  .post-content h3 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .product-details img {
+    height: 300px;
+  }
+  nav#navbar_top:before {
+    width: 362px;
+  }
+  .menu-list {
+    width: 92%;
+  }
+}
+@media (max-width: 991px) {
+  .main-menu {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+  }
+  .top_header:before {
+    display: none;
+  }
+  #navbarNavDropdown {
+    background: var(--brown);
+    border-radius: 12px;
+  }
+  .menu-list a {
+    padding: 10px;
+  }
+  .menu-list {
+    width: 100%;
+    padding: 20px 0;
+    align-items: start !important;
+    height: 435px;
+    overflow-y: scroll;
+  }
+  .menu-list li {
+    width: 100% !important;
+    padding: 0 20px;
+  }
+  .shadow {
+    padding: 0;
+    background: transparent;
+    box-shadow: none !important;
+  }
+  .mega-content .col-md-12 {
+    padding: 0;
+  }
+  #view-all {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10px;
+    z-index: -1;
+  }
+  #view-all a {
+    color: var(--white) !important;
+  }
+  .tab-listing .accordion-item {
+    background: transparent;
+  }
+  .tab-listing .accordion-body {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  /* .tab-listing .accordion-body ul {
+    padding-left: 25px;
+  } */
+  .tab-listing .accordion-body ul li {
+    padding-top: 6px;
+  }
+  .tab-listing .accordion-body ul {
+    border: 0;
+  }
+  .tab-listing .accordion-body ul li ul {
+    border: 0;
+  }
+  .tab-listing .accordion-body ul li:before {
+    background: var(--white);
+    top: 11px;
+  }
+  .tab-listing .accordion-body ul li a {
+    color: var(--white) !important;
+    padding-left: 0px;
+  }
+  .tab-listing .accordion-button {
+    padding: 0;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+    color: var(--white);
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .tab-listing .accordion-button:focus {
+    box-shadow: none;
+  }
+  .tab-listing .accordion-button::after {
+    background: none;
+    content: "\f107";
+    font-family: "Font Awesome 6 Free";
+    position: absolute;
+    right: -4px;
+    top: 0;
+  }
+  .tab-listing .accordion-button:not(.collapsed)::after {
+    background: none;
+    top: 0;
+    right: 0;
+  }
+  .brown-translate {
+    background: var(--white);
+    border-radius: 0 0 18px 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+  }
+  #navbarNavDropdown {
+    background: var(--brown);
+    border-radius: 12px;
+    margin: 10px 0 20px;
+  }
+  div#myTabContent {
+    padding-left: 25px;
+    box-shadow: none;
+    background-color: transparent;
+  }
+  .main-menu .navbar-toggler {
+    border: 0;
+    padding: 0;
+  }
+  .main-menu .navbar-toggler:focus {
+    box-shadow: unset;
+  }
+  .product_slider {
+    padding: 0 30px;
+  }
+  .innner-dropdown {
+    padding: 0;
+    box-shadow: unset !important;
+    background: transparent;
+  }
+  .innner-dropdown li a {
+    color: var(--white) !important;
+    padding: 5px;
+    background: transparent;
+    border-bottom: 0px solid #ddd;
+  }
+  nav#navbar_top {
+    background: var(--white);
+  }
+  nav#navbar_top:before {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .titile-part span {
+    font-size: 20px;
+    line-height: 38px;
+  }
+  p,
+  a {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .partner {
+    width: 100%;
+  }
+  .top-header {
+    display: none;
+  }
+  .banner-info h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .experience-info p {
+    font-size: 28px;
+    line-height: 35px;
+    left: 0;
+  }
+  .mt-70 {
+    margin-top: 35px;
+  }
+  .our-partner {
+    margin-top: 0;
+  }
+  .partner {
+    width: 85%;
+    margin: 0px auto;
+    height: 100%;
+    padding: 20px;
+    bottom: -32px;
+    position: relative;
+    z-index: 1;
+    top: unset;
+  }
+  .partners {
+    padding-left: 0;
+  }
+  .partner-details {
+    z-index: 0;
+  }
+  .section {
+    padding: 60px 0;
+  }
+  .about-us {
+    padding: 60px 0 20px;
+  }
+  .strategy-card {
+    min-height: auto;
+    border: 15px solid rgb(255 255 255 / 40%);
+    margin: 12px 0;
+    padding: 20px;
+  }
+  .strategy-card:hover .strategy-content {
+    transform: translate3d(0%, 0%, 0);
+  }
+  .testimonial-details .profile {
+    width: 85px !important;
+    height: 85px;
+  }
+  .testimonialSlider {
+    width: 100%;
+  }
+  .testi-contents p {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .years-logo01 {
+    width: 110px;
+  }
+  .since-text {
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .counts-stack {
+    width: 100%;
+  }
+  .counts-box {
+    min-height: 170px;
+  }
+  .counts-box h3 {
+    font-size: 40px;
+    line-height: 30px;
+  }
+  .counts-box p {
+    font-size: 19px;
+    line-height: 35px;
+  }
+  .post-details {
+    margin-bottom: 20px;
+  }
+  .gallery-info {
+    padding: 0;
+  }
+  .copyright {
+    text-align: center;
+  }
+  .post-content h3 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .partner-details {
+    padding: 60px 20px 40px;
+  }
+  .or2 {
+    order: 2;
+    margin-top: 20px;
+  }
+
+  .or1 {
+    order: 1;
+  }
+}
+
+@media (max-width: 400px) {
+  .counts-stack li {
+    width: calc(100% / 1);
+  }
+}
